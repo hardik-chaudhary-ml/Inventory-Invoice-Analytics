@@ -14,7 +14,7 @@ else:
     url = f"https://drive.google.com/uc?id={file_id}"
 
     try:
-        gdown.download(url, file_path, quiet=False, fuzzy=True)
+        gdown.download(url, file_path, quiet=False,)
         print("✅ Download completed successfully!")
     except Exception as e:
         print("❌ ERROR: Unable to download file.")
