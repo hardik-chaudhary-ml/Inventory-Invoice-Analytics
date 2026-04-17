@@ -50,7 +50,6 @@ Run:
 ```bash
 python download_db.py
 
----
 ```
 ## 🛠 Tech Stack
 
