@@ -5,7 +5,6 @@ os.makedirs("data", exist_ok=True)
 
 file_path = "data/inventory.db"
 
-# Check if file already exists
 if os.path.exists(file_path):
     print("✅ Database already exists. Skipping download.")
 else:
@@ -15,7 +14,7 @@ else:
     url = f"https://drive.google.com/uc?id={file_id}"
 
     try:
-        gdown.download(url, file_path, quiet=False)
+        gdown.download(url, file_path, quiet=False, fuzzy=True)
         print("✅ Download completed successfully!")
     except Exception as e:
         print("❌ ERROR: Unable to download file.")
