@@ -47,7 +47,8 @@ Instead, it is hosted on Google Drive.
 
 Run:
 
-```bash               python download_db.py
+```bash
+##python download_db.py
 
 ## 🛠 Tech Stack
 
@@ -58,7 +59,6 @@ Run:
 * Joblib
 
 ---
-
 ## 📁 Project Structure
 
 ```
