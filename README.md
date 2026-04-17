@@ -37,6 +37,19 @@ This project assists finance teams by:
 
 ---
 
+## 📂 Dataset
+
+Due to GitHub file size limits, the dataset is not stored in this repository.
+
+Instead, it is hosted on Google Drive.
+
+### 🔽 Download Dataset
+
+Run:
+
+```bash
+python download_db.py
+
 ## 🛠 Tech Stack
 
 * Python
@@ -83,6 +96,8 @@ Inventory-Invoice-Analytics/
 ├── app.py
 ├── requirements.txt
 └── README.md
+----download_db.py
+
 ```
 
 ---
