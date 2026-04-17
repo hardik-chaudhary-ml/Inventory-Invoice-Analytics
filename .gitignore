@@ -1,6 +1,22 @@
-.ipynb_checkpoints/
+# Python cache
 __pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (IMPORTANT - large files)
 data/
 *.db
-.DS_Store/
+
+# Models (optional - if large)
+*.pkl
+
+# OS files
+.DS_Store
 */.DS_Store
+
+# Environment
+.env
+venv/
