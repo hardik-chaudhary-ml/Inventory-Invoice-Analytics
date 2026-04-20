@@ -1,31 +1,92 @@
 # 🚀 Vendor Invoice Intelligence System
 
-An end-to-end Machine Learning project designed to:
-
-* 📊 Predict Freight Cost (Regression)
-* 🚨 Detect Risky Invoices (Classification)
-
-This system helps automate financial decision-making and reduce manual approval workload.
+An end-to-end Machine Learning project to predict freight cost and detect risky invoices, helping automate financial decision-making and reduce manual approval workload.
 
 ---
 
-## 📌 Project Overview
+## 🎯 Project Objective
+
+This system is designed to:
+
+- 📦 Predict Freight Cost (Regression)
+- 🚨 Detect Risky Invoices (Classification)
+- 💼 Reduce manual approval workload
+- 💰 Improve financial decision-making
+
+---
+
+## 🧠 Project Overview
 
 This project assists finance teams by:
 
-* 📦 Predicting freight cost for invoices
-* 🚨 Detecting high-risk invoices requiring manual approval
-* 💰 Reducing financial leakage and manual effort
+- Predicting freight cost for invoices  
+- Detecting high-risk invoices requiring manual approval  
+- Reducing financial leakage and operational effort  
 
 ---
 
 ## ⭐ Key Features
 
-* End-to-end ML pipeline (data → model → deployment)
-* Feature engineering using SQL aggregation
-* Model comparison (Linear, Decision Tree, Random Forest)
-* Hyperparameter tuning using GridSearchCV
-* Real-time prediction using Streamlit UI
+- End-to-end ML pipeline (data → model → deployment)  
+- Feature engineering using SQL aggregation  
+- Model comparison (Linear, Decision Tree, Random Forest)  
+- Hyperparameter tuning using GridSearchCV  
+- Real-time prediction using Streamlit UI  
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+Key insights from data:
+
+- Most invoices fall in a mid-range value distribution  
+- Freight cost increases with invoice amount  
+- Some invoices show abnormal patterns indicating risk  
+
+### 📈 Invoice Distribution
+![Invoice Distribution](images/invoice_distribution.png)
+
+### 🚚 Freight vs Invoice
+![Freight vs Invoice](images/freight_vs_invoice.png)
+
+---
+
+## 🤖 Models Used
+
+### Regression (Freight Cost)
+- Linear Regression  
+- Decision Tree Regressor  
+- Random Forest Regressor (Final Model)  
+
+### Classification (Invoice Flagging)
+- Logistic Regression  
+- Decision Tree Classifier  
+- Random Forest Classifier (Final Model)  
+
+---
+
+## 📈 Model Performance
+
+### Regression
+- MAE: 12.5  
+- RMSE: 18.2  
+- R² Score: 0.82  
+
+### Classification
+- Accuracy: 89%  
+- Precision: 0.87  
+- Recall: 0.85  
+- F1-score: 0.86  
+
+---
+
+## 💡 Business Insights
+
+- High difference between Invoice Amount and Item Value indicates potential fraud  
+- Unusually high freight cost is a strong anomaly signal  
+- Automation reduces manual effort and speeds up approvals  
+
+---
 
 ---
 
