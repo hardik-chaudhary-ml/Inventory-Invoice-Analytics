@@ -43,11 +43,7 @@ Key insights from data:
 - Freight cost increases with invoice amount  
 - Some invoices show abnormal patterns indicating risk  
 
-### 📈 Invoice Distribution
-![Invoice Distribution](images/invoice_distribution.png)
 
-### 🚚 Freight vs Invoice
-![Freight vs Invoice](images/freight_vs_invoice.png)
 
 ---
 
@@ -166,38 +162,7 @@ Inventory-Invoice-Analytics/
 
 ## 📸 Output Screens
 
-### 📊 Freight Cost Prediction
-
-#### Normal Case
-
-![Freight Normal](images/freight_normal.png)
-
-#### Low / Different Case
-
-![Freight Low](images/freight_low.png)
-
----
-
-### 🚨 Invoice Risk Prediction
-
-#### ✅ SAFE Case
-
-![Invoice Safe](images/invoice_safe.png)
-
-#### 🚨 Manual Approval Case
-
-![Invoice Manual](images/invoice_manual.png)
-
----
-
-## 🔍 Invoice Risk Prediction Output
-
-The model predicts whether an invoice is safe or requires manual approval.
-
-* **0 → SAFE for Auto Approval**
-* **1 → Requires MANUAL APPROVAL**
-
----
+Output are stored in images folder
 
 ## 🧠 Decision Logic
 
